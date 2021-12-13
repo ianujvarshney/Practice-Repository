@@ -63,10 +63,11 @@
     height: 5%;
     width: 9%;
   }
-  .Box-2{
-    margin:20px;
-  }
-  .col-items-1{
+      /* just  ify-items: center; */
+      /* justify-conte  nt: center; */
+      /* border:2px solid red; */
+  
+  /* .col-items-1{
     margin:  80px;
     padding-top: 40px;
   }
@@ -74,67 +75,8 @@
     margin-left: 40px;
     padding-top: 40px;
   
-  }
-  .col-items-2 h1
-  {
-    font-size: 30px;
-    font-weight: bold;
-  }
-  .col-items-1 button{
-    border:none !important;
-    background: none ;
-    color: green;
-    outline:none;
-  }
-    .col-items-1 button a{
-      color: green;
-      font-weight: 800;
-    }
-
-.img-1 {
-      position: absolute;
-      top: 361px;
-      left: 452px;
-      width: 162px;
-      height: 157px;
-  }
-.img-2 {
-    position: absolute;
-    left: 489px;
-    top: 400px;
-}
-.img-3{
-  position: absolute;
-  left: 512px;
-  top: 445px;
-} 
-form p{
-  font-weight: 500;
-  margin-bottom: 2px;
-  margin-top: 10px;
-}
-
-form input{
-  height: 5vh;
-  width: 28vw;
-  border-radius: 5px;
-  border-style:outset;
-  border: 1px solid black;
-  font-weight: 200;
-}
-label{
-  margin-bottom: 40px;
-  width: 28vw;
-}
-label a{
-  font-weight: 900;
-  color:green;
-  text-decoration: none;
-}
-label a:hover{
-  color: #19681c;
-}
-#submit{
+ } */
+ /* #submit{
   position: relative;
   top:20px;
   left:10px;
@@ -146,20 +88,12 @@ label a:hover{
   font-weight: 600;
   color: white;
   margin-bottom: 30px;
-}
-.col-3-anchor-link{
+} */
+/* .col-3-anchor-link{
   position: relative;
   font-size: 17px;
   top: 200px;
   left: 60px;
-  /* border: 2px solid red; */
   color: green;
   font-weight: 500;
-}
-.input-checkbox{
-  margin-right: 10px;
-  margin-top:30px;
-  height: 18px;
-  width: 18px;
-  font-size: small;
-}
+} */

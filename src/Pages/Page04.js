@@ -2,12 +2,9 @@ import logo from '../images/logo.svg';
 import React from 'react';
 import backgrou from '../images/backgrou.svg';
 import background from '../images/background.svg';
-import Help from '../images/Help (1).svg';
-import Help_1 from '../images/Help.svg';
 import { Link } from "react-router-dom";
-import '../Pagescss/Page01.css';
-import Page02 from './Page02';
-function Page01() {
+import '../Pagescss/Page04.css';
+function Page04() {
     return (
         <>
             <div className="container-fluid">
@@ -20,20 +17,28 @@ function Page01() {
                 </div>
                 <div className="row Box-2">
                     <div className="col-2 col-items-1">
-                        <button><Link to="Page02"> {"< Back"}</Link></button>
+                        <button> <Link to="/Page03">{"< Back"}</Link></button>
                     </div>
                     <div className="col-5 col-items-2">
-                        <h1 className="text-center new-1">Sign Up as..</h1>
+                        <h1 className="text-center new-1">Log In to Your Account</h1>
                     </div>
                 </div>
                 <div className="row row-items-3">
-                    <div className="col-3 col-items-3 one">
-                        <img src={Help} />
-                        <h1 className="heading-1">Coach</h1>
+                    <div className="col-3 new">
+                        <form>
+                            <p>e-Mail Address*</p>
+                            <input type="email" />
+                            <p>Password*</p>
+                            <input type="password" />
+                        </form>
+                        <label>
+                            <input className="input-checkbox" type="checkbox" />I agree to the <a className="anchor" href="#">Terms and Conditions</a> and <a href="#">Privacy Policy</a>
+                        </label>
                     </div>
-                    <div className="col-3 col-items-4 one">
-                        <img src={Help_1} />
-                        <h1 className="heading-1">Client</h1>
+                    <div className="row">
+                        <div className="col-12 text-center">
+                            <button id="submit" type="submit" >Log In</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -41,4 +46,4 @@ function Page01() {
     );
 }
 
-export default Page01;
+export default Page04;

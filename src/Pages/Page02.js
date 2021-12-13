@@ -5,6 +5,7 @@ import background from '../images/background.svg';
 import Help from '../images/Ellipse4.svg';
 import Help_1 from '../images/Vector.svg';
 import Help_2 from '../images/Vector1.svg';
+import { Link } from "react-router-dom";
 import '../Pagescss/Page02.css';
 function Page02() {
     return (
@@ -19,8 +20,7 @@ function Page02() {
                 </div>
                 <div className="row Box-2">
                     <div className="col-2 col-items-1">
-                        <button> <a href="#">
-                            {"< Back"}</a></button>
+                        <button> <Link to="/Page03">{"< Back"}</Link></button>
                     </div>
                     <div className="col-5 col-items-2">
                         <h1 className="text-center new-1">Create Your Account</h1>
