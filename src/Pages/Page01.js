@@ -6,15 +6,10 @@ import Help from '../images/Help (1).svg';
 import Help_1 from '../images/Help.svg';
 import { Link } from "react-router-dom";
 import '../Pagescss/Page01.css';
-
+import Page02 from './Page02';
 function Page01() {
     return (
         <>
-            <ul>
-                <li>
-                    <Link to="/Pages/Page02"></Link>
-                </li>
-            </ul>
             <div className="container-fluid">
                 <div className="row row-Block-1">
                     <div className="col-12 Box">
@@ -25,7 +20,7 @@ function Page01() {
                 </div>
                 <div className="row Box-2">
                     <div className="col-2 col-items-1">
-                        <Link to="/Pages/Page02"> {"< Back"}</Link>
+                        <button><Link Link to="Page02"> {"< Back"}</Link></button>
                     </div>
                     <div className="col-5 col-items-2">
                         <h1 className="text-center new-1">Sign Up as..</h1>

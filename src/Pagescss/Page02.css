@@ -49,6 +49,20 @@
   .Box img{
     width: 100vw;
   }
+  .icon img {
+    position: absolute;
+    top: 2%;
+    left: 3%;
+    height: 12%;
+    width: 10%;
+  }
+  .icon-2 img {
+    position: absolute;
+    top: 14%;
+    left: 4%;
+    height: 5%;
+    width: 9%;
+  }
   .Box-2{
     margin:20px;
   }
@@ -70,48 +84,75 @@
     border:none !important;
     background: none ;
     color: green;
+    outline:none;
   }
-  .col-items-1 button a{
-     color: green;
-     font-weight: 800;
+    .col-items-1 button a{
+      color: green;
+      font-weight: 800;
+    }
+
+.img-1 {
+      position: absolute;
+      top: 361px;
+      left: 452px;
+      width: 162px;
+      height: 157px;
   }
-  .row-items-3{
-    justify-content: center;
-  }
-  .one{
-    height: 250px;
-    width: 250px !important;
-    text-align : center;
-    border:1px solid rgb(1, 109, 1);; 
-    border-top: 10px solid rgb(1, 109, 1);
-    border-radius: 5px; 
-  }
-  .col-items-3{
-    margin-right: 120px;
-  }
-   .col-items-4{
-    width: 250px !important;
-  }
-  .one img{
-    height:80px;
-  }
-  .one h1{
-    font-size: 20px;
-  }
-  .one img , .one h1{
-    margin-top: 30px;
-  }
-  .icon-2 img {
+.img-2 {
     position: absolute;
-    top: 14%;
-    left: 4%;
-    height: 5%;
-    width: 9%;
-  }
-  .icon img {
-    position: absolute;
-    top: 2%;
-    left: 3%;
-    height: 12%;
-    width: 10%;
-  }
+    left: 489px;
+    top: 400px;
+}
+.img-3{
+  position: absolute;
+  left: 512px;
+  top: 445px;
+} 
+form p{
+  font-weight: 500;
+  margin-bottom: 2px;
+  margin-top: 10px;
+}
+
+ form input{
+  height: 5vh;
+  width: 25vw;
+  border-radius: 5px;
+  border: 1px solid black;  
+  font-weight: 200;
+}
+.tacbox{
+  border:2px solid red;
+  width: 30vw;
+}
+label{
+  margin-top: 20px;
+  margin-bottom: 40px;
+  width: 26vw;
+}
+label a{
+  color:green;
+  text-decoration: none;
+  /* text */
+}
+label a:hover{
+  color: #19681c;
+}
+#submit{
+  width: 180px;
+  height: 40px;
+  border-radius: 5px;
+  background: green;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+.col-3-anchor-link{
+  position: relative;
+  font-size: 17px;
+  top: 200px;
+  left: 60px;
+  /* border: 2px solid red; */
+  color: green;
+  font-weight: 500;
+}

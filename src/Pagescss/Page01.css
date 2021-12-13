@@ -69,6 +69,7 @@
   .col-items-1 button{
     border:none !important;
     background: none ;
+    outline: none;
     color: green;
   }
   .col-items-1 button a{
@@ -114,4 +115,57 @@
     left: 3%;
     height: 12%;
     width: 10%;
+  }
+  @media (max-width:320px){
+    .Box {
+      height: 200px;
+    }
+    .Box img{
+      height: 200px;
+      object-fit: cover;
+    }
+    .Box .icon img{      
+      height: 80px;
+      width: 80px;
+      top: 30px;
+      left: 120px;
+    }
+    .Box .icon-2 img{
+      height: 25px;
+      width: 110px;
+      top: 110px;
+      left: 110px;
+    }
+    .col-items-1 button{
+      color: green;
+    }
+    .col-items-1 button a{
+      position: absolute;
+      outline: none;
+      left: 30px;
+      top: 220px;
+    }
+    .col-items-2 .new-1 {
+      font-size: 35px;
+      position: absolute;
+      left: 50px;
+      top: 300px;
+    }
+    .row-items-3{
+      height: 100vh;
+      text-align: center;
+      /* border: 2px solid red; */
+      margin: 20px;
+    }
+    .row-items-3 .one{
+      max-width: 200px;
+      max-height: 200px;
+      margin: auto;
+      /* border: 2px solid red; */
+      justify-content: center;
+    } 
+    .row-items-3 .one img{
+      max-width: 80px;
+      max-height: 80px;
+    }    
   }
