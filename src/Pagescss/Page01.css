@@ -1,4 +1,4 @@
-.App {
+/* .App {
     text-align: center;
   }
   
@@ -35,7 +35,7 @@
     to {
       transform: rotate(360deg);
     }
-  }
+  } */
   
   /***********************************************New Css with bootstrap*************************************************/
   *{
@@ -51,6 +51,9 @@
   }
   .Box-2{
     margin:20px;
+  }
+  .row{
+    border:1px solid red;
   }
   .col-items-1{
     margin:  80px;

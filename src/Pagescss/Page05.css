@@ -85,7 +85,7 @@
         box-sizing: border-box;
         border-radius: 5px;
   }
-  section .Nav-bar
+.Nav-bar
   {   
     position: static;
     width: 100vw;
@@ -93,7 +93,10 @@
     top: 10px; 
     box-shadow: 0 0 20px #999;
   }
-
+  .section_f1 h1{
+  background-image: linear-gradient(red,green);
+  color: black;
+}
   /* ************************************************************************************************************************************************************* */
   /* .col-items-1{
     margin:  80px;
