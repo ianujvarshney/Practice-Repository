@@ -10,12 +10,12 @@ import '../Pagescss/Page02.css';
 function Page02() {
     return (
         <>
-            <div className="container-fluid">
+            <div id="main" className="container-fluid">
                 <div className="row row-Block-1">
                     <div className="col-12 Box">
-                        <img src={background} />
-                        <h1 className="icon"><img src={logo} /></h1>
-                        <h1 className="icon-2"><img src={backgrou} /></h1>
+                        <img src={background} alt="" />
+                        <h1 className="icon"><img src={logo} alt="" /></h1>
+                        <h1 className="icon-2"><img src={backgrou} alt="" /></h1>
                     </div>
                 </div>
                 <div className="row Box-2">
@@ -27,11 +27,13 @@ function Page02() {
                     </div>
                 </div>
                 <div className="row row-items-3">
-                    <div className="col-3 col-item-a">
-                        <img className="img-1" src={Help} />
-                        <img className="img-2" src={Help_1} />
 
-                        <img className="img-3" src={Help_2} />
+                    <div className="col-3 col-item-a">
+                        <img className="img-1" src={Help} alt="" />
+                        <img className="img-2" src={Help_1} alt="" />
+
+                        <label for="upa"><img className="img-3" src={Help_2} alt="" /></label>
+                        <input id="upa" type="file" />
                         <h1 className="heading-1"><a className="col-3-anchor-link" href="#">Add Profile Picture</a></h1>
                     </div>
                     <div className="col-3">

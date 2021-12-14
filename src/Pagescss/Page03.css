@@ -23,6 +23,7 @@
     font-size: calc(10px + 2vmin);
     color: white;
   }
+
   
   .App-link {
     color: #61dafb;
@@ -44,6 +45,7 @@
     box-sizing: border-box;
     font-family: SF-Pro-Regular;
   }
+  
   .Box{
     padding: 0px !important; 
   } 
@@ -68,8 +70,10 @@
     width: 10%;
   } 
   .Box-2 .new-1{
-      margin-top: 30px;
-      font-size: 30px;
+    font-weight: 900 !important;
+      margin-top: 30px !important;
+      /* margin-bottom: 30px !important; */
+      font-size: 25px;
       font-weight: 600;
   }
   .row-items-3  button {
@@ -77,14 +81,22 @@
         position: absolute;
         width:14vw;
         height: 50px;
-        left: 700px;
+        /* left: 700px !important; */
         top: 429px;
-
+        color: red;
         background: #006700;
         border: 1px solid #006700;
         box-sizing: border-box;
         border-radius: 5px;
+  }  
+  .row-items-3  button Link{
+    border:2px solid red;
+    color:red;
+  } 
+  #para p{
+    font-weight: 500;
   }
+  
 
   /* ************************************************************************************************************************************************************* */
   /* .col-items-1{

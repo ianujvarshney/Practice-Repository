@@ -3,6 +3,7 @@ import React from 'react';
 import backgrou from '../images/backgrou.svg';
 import background from '../images/background.svg';
 import '../Pagescss/Page03.css';
+import { Link } from "react-router-dom";
 function Page03() {
     return (
         <>
@@ -26,7 +27,7 @@ function Page03() {
                 </div>
                 <div className="row row-items-3">
                     <div className="text-center">
-                        <button className="btn-success">Go to Log In page</button>
+                        <button className="btn-success"><Link to="/Page04">Go to Log In page</Link></button>
                     </div>
                 </div>
             </div>

@@ -5,7 +5,7 @@ import Page02 from './Pages/Page02';
 import Page03 from './Pages/Page03';
 import Page04 from './Pages/Page04';
 import Page05 from './Pages/Page05';
-import { BrowserRouter as Router, Link, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <>

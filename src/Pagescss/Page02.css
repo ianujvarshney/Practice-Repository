@@ -1,4 +1,4 @@
-/* .App {
+.App {
     text-align: center;
   }
   
@@ -36,7 +36,7 @@
       transform: rotate(360deg);
     }
   }
-   */
+  
   /***********************************************New Css with bootstrap*************************************************/
   *{
     padding: 0;
@@ -122,11 +122,17 @@ form input{
   border: 1px solid black;
   font-weight: 200;
 }
+.row-items-3 .col-item-a
+{
+  width: 18vw;
+  padding: 0px !important;
+}
 label{
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   width: 28vw;
 }
 label a{
+  font-weight: 900;
   font-weight: 900;
   color:green;
   text-decoration: none;
@@ -134,14 +140,18 @@ label a{
 label a:hover{
   color: #19681c;
 }
+form{
+  margin-top: 10px;
+  /* border: 2px solid red; */
+}
 #submit{
   position: relative;
   top:20px;
-  left:10px;
-  width: 190px;
+  left:0px;
+  width: 180px;
   background: #006700;
   border: 1px solid #006700;
-  height: 40px;
+  height: 35px;
   border-radius: 5px;
   font-weight: 600;
   color: white;
@@ -151,15 +161,29 @@ label a:hover{
   position: relative;
   font-size: 17px;
   top: 200px;
-  left: 60px;
-  /* border: 2px solid red; */
+  left: 10px;
   color: green;
   font-weight: 500;
 }
 .input-checkbox{
+  position: relative;
   margin-right: 10px;
-  margin-top:30px;
+  top:12px;
   height: 18px;
   width: 18px;
   font-size: small;
+}
+.col-3 p{
+  font-weight: 900;
+}
+input{
+  height:40px !important;
+}
+label{
+  margin-top:0px !important ;
+  /* border:2px solid red; */
+}
+#upa{
+  display: none;
+  visibility: none;
 }
