@@ -142,11 +142,11 @@ label a:hover{
 }
 form{
   margin-top: 10px;
-  /* border: 2px solid red; */
 }
 #submit{
+  border: 1px solid red;
   position: relative;
-  top:20px;
+  top:10px;
   left:0px;
   width: 180px;
   background: #006700;
@@ -155,7 +155,6 @@ form{
   border-radius: 5px;
   font-weight: 600;
   color: white;
-  margin-bottom: 30px;
 }
 .col-3-anchor-link{
   position: relative;
