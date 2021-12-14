@@ -76,27 +76,20 @@
       font-size: 25px;
       font-weight: 600;
   }
-  .row-items-3  button {
-
-        position: absolute;
-        width:14vw;
-        height: 50px;
-        /* left: 700px !important; */
-        top: 429px;
-        color: red;
-        background: #006700;
-        border: 1px solid #006700;
-        box-sizing: border-box;
-        border-radius: 5px;
-  }  
-  .row-items-3  button Link{
-    border:2px solid red;
-    color:red;
+  .row-items-3  #change{
+    position: relative;
+    top: 100px;
+    color:white;
+    padding: 15px 40px 15px 40px;
+    border-radius:5px;
+    font-weight: 900;
+    background: #006700;
+    text-decoration: none;
   } 
-  #para p{
-    font-weight: 500;
+  .row-items-3{
+    height:100px;
   }
-  
+
 
   /* ************************************************************************************************************************************************************* */
   /* .col-items-1{

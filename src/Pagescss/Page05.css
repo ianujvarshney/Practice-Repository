@@ -1,204 +1,88 @@
-.App {
-    text-align: center;
-  }
-  
-  .App-logo {
-    height: 40vmin;
-    pointer-events: none;
-  }
-  
-  @media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-      animation: App-logo-spin infinite 20s linear;
-    }
-  }
-  
-  .App-header {
-    background-color: #282c34;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
-  }
-  
-  .App-link {
-    color: #61dafb;
-  }
-  
-  @keyframes App-logo-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
-  
-  /***********************************************New Css with bootstrap*************************************************/
-  *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: SF-Pro-Regular;
-  }
-  .Box{
-    padding: 0px !important; 
-  } 
-  .Box img{
-    width: 100vw;
-  }
-  .Box-2{
-    margin:20px;
-  }
-  .icon-2 img {
-    position: absolute;
-    top: 14%;
-    left: 4%;
-    height: 5%;
-    width: 9%;
-  }
-  .icon img {
-    position: absolute;
-    top: 2%;
-    left: 3%;
-    height: 12%;
-    width: 10%;
-  } 
-  .Box-2 .new-1{
-      margin-top: 30px;
-      font-size: 30px;
-      font-weight: 600;
-  }
-  .row-items-3  button {
-
-        position: absolute;
-        width:14vw;
-        height: 50px;
-        left: 700px;
-        top: 429px;
-
-        background: #006700;
-        border: 1px solid #006700;
-        box-sizing: border-box;
-        border-radius: 5px;
-  }
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 .Nav-bar
   {   
     position: static;
     width: 100vw;
     height:80px;
-    top: 10px; 
+    top: 10px;
+    z-index: 1;
     box-shadow: 0 0 20px #999;
   }
-  .section_f1 h1{
-  background-image: linear-gradient(red,green);
-  color: black;
+  .section_f1{
+    background:#fff;
+    height: 110vh;
+    margin-left: 90px;
+    width: 30vw !important;
+} 
+.section_f2 {
+  border-radius: 5px;
+  height: 35vh;
+  width: 57vw !important;
+  z-index: 1;
+  width: fit-content;
+  background:#fff;
+  margin-left: 10px;
+} 
+ .section_f1 h1{
+  position: relative;
+  top: 120px;
+  font-size: 20px;
+  font-weight: 900;
+} 
+ .section_f2 h1{
+   position: relative;
+   top: 120px;
+   font-size: 20px;
+   font-weight: 900;
+   color: black;
+ }
+ #contain{
+  background: #EDECEC;
+ }
+ .ms-auto h6{
+   position: relative;
+   top: 40px;
+   left: -20px;
+   font-weight: 900;
+ } 
+#navbarScrollingDropdown{
+   margin-right:40px;
+   margin-left: -70px;
+   color: black;
+   font-size: 25px;
+ }
+#img_2{
+  position: absolute;
+  padding: none;
+  /* height: 35px; */
+  width: 130px;
+  top: 7px;
+  left: 120px;
+  border: none;
 }
-  /* ************************************************************************************************************************************************************* */
-  /* .col-items-1{
-    margin:  80px;
-    padding-top: 40px;
-  }
-  .col-items-2{
-    margin-left: 40px;
-    padding-top: 40px;
-  
-  } */
-  /* .col-items-2 h1
-  {
-    font-size: 30px;
-    font-weight: bold;
-  }
-   .col-items-1 button{
-    border:none !important;
-    background: none ;
-    outline: none;
-    color: green;
-  } */
-  /* .col-items-1 button a{
-     color: green;
-     font-weight: 800;
-  }
-  .row-items-3{
-    justify-content: center;
-  }
-  .one{
-    height: 250px;
-    width: 250px !important;
-    text-align : center;
-    border:1px solid rgb(1, 109, 1);; 
-    border-top: 10px solid rgb(1, 109, 1);
-    border-radius: 5px; 
-  }
-  .col-items-3{
-    margin-right: 120px;
-  }
-   .col-items-4{
-    width: 250px !important;
-  }
-  .one img{
-    height:80px;
-  }
-  .one h1{
-    font-size: 20px;
-  }
-  .one img , .one h1{
-    margin-top: 30px;
-  } */
-
-  /* @media (max-width:320px){
-    .Box {
-      height: 200px;
-    }
-    .Box img{
-      height: 200px;
-      object-fit: cover;
-    }
-    .Box .icon img{      
-      height: 80px;
-      width: 80px;
-      top: 30px;
-      left: 120px;
-    }
-    .Box .icon-2 img{
-      height: 25px;
-      width: 110px;
-      top: 110px;
-      left: 110px;
-    }
-    .col-items-1 button{
-      color: green;
-    }
-    .col-items-1 button a{
-      position: absolute;
-      outline: none;
-      left: 30px;
-      top: 220px;
-    }
-    .col-items-2 .new-1 {
-      font-size: 35px;
-      position: absolute;
-      left: 50px;
-      top: 300px;
-    }
-    .row-items-3{
-      height: 100vh;
-      text-align: center;
-      /* border: 2px solid red; */
-      /* margin: 20px;
-    }
-    .row-items-3 .one{
-      max-width: 200px;
-      max-height: 200px;
-      margin: auto;
-      /* border: 2px solid red; */
-      /* justify-content: center; */
-    /* } 
-    .row-items-3 .one img{
-      max-width: 80px;
-      max-height: 80px;
-    }     */
-  /* } */ 
+#navbar-image h2{
+  position: absolute;
+  font-size: 20px;
+  top: 42px;
+  left: 120px;
+  font-weight: 600;
+}
+#h1-id{
+  position: relative;
+  border: 1px solid #006700;;
+  top: 120px;
+  width: 80px;
+  padding: 1px;
+  padding-top:15px;
+  font-weight: 900;
+  font-size: 15px;
+  text-align: center;
+  color: #006700;
+  height: 80px;
+  border-radius: 60px;
+  left: 45vw;
+}

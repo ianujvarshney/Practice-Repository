@@ -14,7 +14,7 @@ function Page02() {
                 <div className="row row-Block-1">
                     <div className="col-12 Box">
                         <img src={background} alt="" />
-                        <h1 className="icon"><img src={logo} alt="" /></h1>
+                        <h1 className="icon"><Link to="/" ><img src={logo} /></Link></h1>
                         <h1 className="icon-2"><img src={backgrou} alt="" /></h1>
                     </div>
                 </div>
@@ -39,16 +39,16 @@ function Page02() {
                     <div className="col-3">
                         <form>
                             <p>Name*</p>
-                            <input type="text" />
+                            <input type="text" alt="" required />
                             <p>e-Mail Address*</p>
-                            <input type="email" />
+                            <input type="email" alt="" required />
                             <p>Password*</p>
-                            <input type="password" />
+                            <input type="password" alt="" required />
                             <p>Confirm Password*</p>
-                            <input type="password" />
+                            <input type="password" alt="" required />
                         </form>
                         <label>
-                            <input className="input-checkbox" type="checkbox" />I agree to the <a className="anchor" href="#">Terms and Conditions</a> and <a href="#">Privacy Policy</a>
+                            <input className="input-checkbox" type="checkbox" />I agree to the <a className="anchor" href="src/Main Pages/Term_condition.html">Terms and Conditions</a> and <a href="src/Main Pages/Term_condition.html">Privacy Policy</a>
                         </label>
                         <button id="submit" type="submit" >Sign Up</button>
                     </div>

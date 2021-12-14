@@ -11,7 +11,7 @@ function Page03() {
                 <div className="row row-Block-1">
                     <div className="col-12 Box">
                         <img src={background} />
-                        <h1 className="icon"><img src={logo} /></h1>
+                        <h1 className="icon"><Link to="/" ><img src={logo} /></Link></h1>
                         <h1 className="icon-2"><img src={backgrou} /></h1>
                     </div>
                 </div>
@@ -26,8 +26,8 @@ function Page03() {
                     </div>
                 </div>
                 <div className="row row-items-3">
-                    <div className="text-center">
-                        <button className="btn-success"><Link to="/Page04">Go to Log In page</Link></button>
+                    <div className="col-12 text-center">
+                        <Link id="change" to="/Page04">Go to Log In page</Link>
                     </div>
                 </div>
             </div>

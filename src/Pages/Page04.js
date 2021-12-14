@@ -11,7 +11,7 @@ function Page04() {
                 <div className="row row-Block-1">
                     <div className="col-12 Box">
                         <img src={background} />
-                        <h1 className="icon"><img src={logo} /></h1>
+                        <h1 className="icon"><Link to="/" ><img src={logo} /></Link></h1>
                         <h1 className="icon-2"><img src={backgrou} /></h1>
                     </div>
                 </div>
@@ -27,13 +27,10 @@ function Page04() {
                     <div className="col-3 new">
                         <form>
                             <p>e-Mail Address*</p>
-                            <input type="email" />
+                            <input type="email" alt="" required />
                             <p>Password*</p>
-                            <input type="password" />
+                            <input type="password" alt="" required />
                         </form>
-                        <label>
-                            <input className="input-checkbox" type="checkbox" />I agree to the <a className="anchor" href="#">Terms and Conditions</a> and <a href="#">Privacy Policy</a>
-                        </label>
                     </div>
                     <div className="row">
                         <div className="col-12 text-center">

@@ -3,7 +3,7 @@ import logo from '../images/logo.svg';
 import logo_1 from '../images/image-Logo.svg';
 import logo_2 from '../images/Subtract.svg';
 import { Link } from "react-router-dom";
-import '../Pagescss/Page05.css';
+import '../Pagescss/Page06.css';
 import { Navbar, NavDropdown, Container } from 'react-bootstrap';
 
 function Page05() {
@@ -41,7 +41,17 @@ function Page05() {
                     </div>
                     <div className="col-8 section_f2">
                         <h1>My Coaches</h1>
-                        <p id="h1-id">Add Coach</p>
+                        <div className="row" id="row-data">
+                            <header>Add Your Coach's Code
+                                <i class="ms-auto fas fa-times"></i>
+                            </header>
+                            <div className="col-12">
+                                <form className="text-center">
+                                    <input type="text" />
+                                    <Link id="Link-button" to="/">Submit</Link>
+                                </form>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

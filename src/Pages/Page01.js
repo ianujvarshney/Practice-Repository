@@ -15,7 +15,7 @@ function Page01() {
                 <div className="row row-Block-1">
                     <div className="col-12 Box">
                         <img src={background} alt="" />
-                        <h1 className="icon"><img src={logo} alt="" /></h1>
+                        <h1 className="icon"><Link to="/" ><img src={logo} /></Link></h1>
                         <h1 className="icon-2"><img src={backgrou} alt="" /></h1>
                     </div>
                 </div>

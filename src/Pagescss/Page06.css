@@ -1,3 +1,132 @@
-.row{
-    border: 10px solid green;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .Nav-bar
+    {   
+      position: static;
+      width: 100vw;
+      height:80px;
+      top: 10px;
+      z-index: 1;
+      box-shadow: 0 0 20px #999;
+    }
+    .section_f1{
+      background:#fff;
+      height: 110vh;
+      margin-left: 90px;
+      width: 30vw !important;
+  } 
+  .section_f2 {
+    border-radius: 5px;
+    height: 35vh;
+    width: 57vw !important;
+    z-index: 1;
+    width: fit-content;
+    background:#fff;
+    margin-left: 10px;
+  } 
+   .section_f1 h1{
+    position: relative;
+    top: 120px;
+    font-size: 20px;
+    font-weight: 900;
+  } 
+   .section_f2 h1{
+     position: relative;
+     top: 120px;
+     font-size: 20px;
+     font-weight: 900;
+     color: black;
+   }
+   #contain{
+    background: #EDECEC;
+   }
+   .ms-auto h6{
+     position: relative;
+     top: 40px;
+     left: -20px;
+     font-weight: 900;
+   } 
+  #navbarScrollingDropdown{
+     margin-right:40px;
+     margin-left: -70px;
+     color: black;
+     font-size: 25px;
+   }
+  #img_2{
+    position: absolute;
+    padding: none;
+    /* height: 35px; */
+    width: 130px;
+    top: 7px;
+    left: 120px;
+    border: none;
+  }
+  #navbar-image h2{
+    position: absolute;
+    font-size: 20px;
+    top: 42px;
+    left: 120px;
+    font-weight: 600;
+  }
+  #h1-id{
+    position: relative;
+    border: 1px solid #006700;;
+    top: 120px;
+    width: 80px;
+    padding: 1px;
+    padding-top:15px;
+    font-weight: 900;
+    font-size: 15px;
+    text-align: center;
+    color: #006700;
+    height: 80px;
+    border-radius: 60px;
+    left: 45vw;
+  }
+  #row-data{
+    position: absolute;
+    height: 300px;
+    width: 700px;
+    left: 700px;
+    top: 323px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+  #row-data header{
+    display:flex;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-left: 40px;
+    align-items: center;
+    background: #047304;
+    height: 60px;
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+} 
+ #row-data  input{
+     position: relative;
+     border: 0.5px solid #000000;
+     top: -30px;
+     left: 100px;
+     width: 25vw;
+}
+#Link-button{
+    position: relative;
+    top: 40px;
+    border-radius: 5px;
+    left: -12vw;
+    padding: 10px 60px 10px 60px;
+    
+    color: white;
+    background: #006700;
+    text-decoration: none;
+}
+.fas{
+    padding: 10px;
+    font-weight: 300;
+    font-size: 25px;
 }
