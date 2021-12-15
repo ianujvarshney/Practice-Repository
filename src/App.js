@@ -8,6 +8,7 @@ import Page05 from './Pages/Page05';
 import Page06 from './Pages/Page06';
 import Page07 from './Pages/Page07';
 import Page08 from './Pages/Page08';
+import Page09 from './Pages/Page09';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="Page06" element={<Page06 />} />
           <Route path="Page07" element={<Page07 />} />
           <Route path="Page08" element={<Page08 />} />
+          <Route path="Page09" element={<Page09 />} />
         </Routes>
       </Router>
     </>

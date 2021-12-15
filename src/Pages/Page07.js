@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import '../Pagescss/Page07.css';
 import { Navbar, NavDropdown, Container } from 'react-bootstrap';
 
-function Page05() {
+function Page07() {
     return (
         <>
 
@@ -65,4 +65,4 @@ function Page05() {
 }
 
 
-export default Page05;
+export default Page07;

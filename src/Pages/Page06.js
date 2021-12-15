@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import '../Pagescss/Page06.css';
 import { Navbar, NavDropdown, Container } from 'react-bootstrap';
 
-function Page05() {
+function Page06() {
     return (
         <>
 
@@ -23,7 +23,7 @@ function Page05() {
                                 <h6>Welcome back, George</h6>
                                 <img height="100px" width="40px" src={logo_2} />
                             </Navbar.Brand>
-                            <Navbar.Toggle class="navbar-toggle" aria-controls="navbarScroll" />
+                            <Navbar.Toggle className="navbar-toggle" aria-controls="navbarScroll" />
                             <NavDropdown title="" id="navbarScrollingDropdown">
                                 <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
                                 <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
@@ -60,4 +60,4 @@ function Page05() {
 }
 
 
-export default Page05;
+export default Page06;
