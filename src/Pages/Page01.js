@@ -8,14 +8,21 @@ import { Link } from "react-router-dom";
 import '../Pagescss/Page01.css';
 // import '../Pagescss/Page06.css';
 // import Page02 from './Page02';
+
+// const Box = {
+//     padding: "0px !important",
+// }
+// const img = {
+//     width: "100vw"
+// }
 function Page01() {
     return (
         <>
             <div className="container-fluid">
                 <div className="row row-Block-1">
-                    <div className="col-12 Box">
+                    <div className="col-12 Box" >
                         <img src={background} alt="" />
-                        <h1 className="icon"><Link to="/" ><img src={logo} /></Link></h1>
+                        <h1 className="icon"><Link to="/" ><img src={logo} alt="" /></Link></h1>
                         <h1 className="icon-2"><img src={backgrou} alt="" /></h1>
                     </div>
                 </div>
