@@ -1,0 +1,38 @@
+#h6-data
+{
+    margin-top: 60px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    color: #6C6C6C;
+    width: 280px;
+    margin-left: 20px;
+}
+#form-items-data p
+{
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 20px;
+    color: #006700;
+    font-weight: 900;
+}
+#items-2{
+    height: 15vw;
+    text-align: right;
+}
+#items-2 p{
+    position: relative;
+    top: -30px;
+    font-weight: 900;
+}
+#Link-items-data{
+    position: relative;
+    left: 25px;
+    top: 40px;
+    padding:10px 50px 10px 50px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background: #006700;
+    text-decoration: none;
+}
