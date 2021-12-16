@@ -1,11 +1,12 @@
-// import React from 'react';
+import React, { useState } from 'react';
 import logo from '../images/logo.svg';
 import logo_1 from '../images/image-Logo.svg';
 import logo_2 from '../images/Subtract.svg';
 import logo_3 from '../images/Ellipse_8.svg';
 import { Link } from "react-router-dom";
 import '../Pagescss/Page09.css';
-import { Navbar, NavDropdown, Container } from 'react-bootstrap';
+import Modal from 'react-bootstrap/Modal'
+import { Navbar, NavDropdown, Container, Button } from 'react-bootstrap';
 const ContainData = {
     display: 'flex',
     background: '#EDECEC',
@@ -19,21 +20,46 @@ const rowstyleData = {
     alignItems: 'right',
     justifyContent: 'right'
 }
-const newonedata = {
-    // position: 'relative',
-    // fontWeight: 'bold',
-    // top: '20px',
-    // left: '-74px',
-    // border: '1px solid red;',
-    // display: 'inline'
-}
 const rowdataitem = {
     padding: '10px',
 }
 
+
 function Page09() {
+    const [show, setShow] = useState(false);
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
     return (
         <>
+            <Modal show={show} onHide={handleClose}>
+                <Modal.Header closeButton>
+                    <Modal.Title>Add New Card</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                    <form>
+                        <label>Name on Card</label>
+                        <input type="text" alt="" />
+                        <label>Card Number</label>
+                        <input type="text" alt="" />
+                        <div>
+                            <span>
+                                <label>Expiry Date</label>
+                                <input type="text" alt="" />
+                            </span>
+                            <span>
+                                <label>Expiry Date</label>
+                                <input type="text" alt="" />
+                            </span>
+                        </div>
+                    </form>
+                </Modal.Body>
+                <Modal.Footer className="text-center">
+                    <Button className="text-center" variant="success" onClick={handleClose}>
+                        Save
+                    </Button>
+                </Modal.Footer>
+            </Modal>
+
             <div className="container-fluid" style={ContainData}>
                 <div className="row">
                     <Navbar className="Nav-bar" bg="light" variant="light" fixed="top" expand="lg">
@@ -68,7 +94,7 @@ function Page09() {
                             <div className="col-3" style={rowstyleData}>
                                 <img height="200px" width="82px" src={logo_3} />
                             </div>
-                            <div className="col-7" style={newonedata}>
+                            <div className="col-7">
                                 <p>John Cena</p>
                                 <p id="new-one">Full Course <span>$2,000</span></p>
                             </div>
@@ -76,7 +102,7 @@ function Page09() {
                         <div className="row">
                             <div className="col" id="colh6data">
                                 <h6 id="h6-data" >Choose Payment Information</h6>
-                                <button className="btn btn-outline-success">  +  Add New Card </button>
+                                <button onClick={handleShow} className="btn btn-outline-success">  +  Add New Card </button>
                                 <h6 id="newh6">This payment  will be a one-time payment</h6>
                             </div>
                         </div>
