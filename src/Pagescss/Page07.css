@@ -33,3 +33,6 @@ form #Link-button-1{
     left: -10px;
     font-weight: 900;
 } 
+#form-items #Link-button-1{
+    font-weight: 900;
+}

@@ -143,11 +143,12 @@ label a:hover{
 form{
   margin-top: 10px;
 }
-#submit{
+#col3 #submit{
   border: 1px solid red;
   position: relative;
-  top:10px;
+  top:40px;
   left:0px;
+  margin-bottom: 100px;
   width: 180px;
   background: #006700;
   border: 1px solid #006700;
@@ -164,7 +165,7 @@ form{
   color: green;
   font-weight: 500;
 }
-.input-checkbox{
+#input-checkbox{
   position: relative;
   margin-right: 10px;
   top:12px;

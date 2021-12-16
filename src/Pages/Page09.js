@@ -6,11 +6,35 @@ import logo_3 from '../images/Ellipse_8.svg';
 import { Link } from "react-router-dom";
 import '../Pagescss/Page09.css';
 import { Navbar, NavDropdown, Container } from 'react-bootstrap';
+const ContainData = {
+    display: 'flex',
+    background: '#EDECEC',
+    height: '135vh',
+    width: '100vw',
+    alignItems: 'center',
+    justifyContent: 'center'
+}
+const rowstyleData = {
+    display: 'flex',
+    alignItems: 'right',
+    justifyContent: 'right'
+}
+const newonedata = {
+    // position: 'relative',
+    // fontWeight: 'bold',
+    // top: '20px',
+    // left: '-74px',
+    // border: '1px solid red;',
+    // display: 'inline'
+}
+const rowdataitem = {
+    padding: '10px',
+}
 
 function Page09() {
     return (
         <>
-            <div className="container-fluid" id="contain">
+            <div className="container-fluid" style={ContainData}>
                 <div className="row">
                     <Navbar className="Nav-bar" bg="light" variant="light" fixed="top" expand="lg">
                         <Container fluid>
@@ -35,22 +59,39 @@ function Page09() {
                         </Container>
                     </Navbar>
                 </div>
-                <div className="row" >
-                    <div className="col-12" id="row-data">
+                <div className="row text-center" id="row1">
+                    <div className="col-12" id="row-data-2">
                         <header>Payment
                             <i className="ms-auto fas fa-times"></i>
                         </header>
-                        <div className="col-5" id="items-2">
-                            <img id="image-data-2" height="200px" width="82px" src={logo_3} />
-                            <p>John Cena</p>
+                        <div className="row">
+                            <div className="col-3" style={rowstyleData}>
+                                <img height="200px" width="82px" src={logo_3} />
+                            </div>
+                            <div className="col-7" style={newonedata}>
+                                <p>John Cena</p>
+                                <p id="new-one">Full Course <span>$2,000</span></p>
+                            </div>
                         </div>
-                        <div className="col-7" id="form-items-data">
-                            <form id="forms-data-items">
-                                <h6 id="h6-data" >Your Coach has requested you to pay for
-                                    the full course up front</h6>
+                        <div className="row">
+                            <div className="col" id="colh6data">
+                                <h6 id="h6-data" >Choose Payment Information</h6>
+                                <button className="btn btn-outline-success">  +  Add New Card </button>
+                                <h6 id="newh6">This payment  will be a one-time payment</h6>
+                            </div>
+                        </div>
+                        <div className="row" style={rowdataitem}>
+                            <div className="col-6">
+                                <p>Total</p>
+                            </div>
+                            <div id="two" className="col-6">
                                 <p >$2,000</p>
-                                <Link id="Link-items-data" to="/">Continue</Link>
-                            </form>
+                            </div>
+                        </div>
+                        <div className="row" id="rowLink" style={{ border: 'none' }}>
+                            <div className="col">
+                                <Link id="Link-items-data-1" to="/">Pay</Link>
+                            </div>
                         </div>
                     </div>
                 </div>

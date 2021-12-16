@@ -10,7 +10,7 @@ import '../Pagescss/Page02.css';
 function Page02() {
     return (
         <>
-            <div id="main" className="container-fluid">
+            <div id="main" className="container-fluid" id="rowcolor">
                 <div className="row row-Block-1">
                     <div className="col-12 Box">
                         <img src={background} alt="" />
@@ -36,7 +36,7 @@ function Page02() {
                         <input id="upa" type="file" />
                         <h1 className="heading-1"><a className="col-3-anchor-link" href="#">Add Profile Picture</a></h1>
                     </div>
-                    <div className="col-3">
+                    <div id="col3" className="col-3">
                         <form>
                             <p>Name*</p>
                             <input type="text" alt="" required />
@@ -48,7 +48,7 @@ function Page02() {
                             <input type="password" alt="" required />
                         </form>
                         <label>
-                            <input className="input-checkbox" type="checkbox" />I agree to the <a className="anchor" href="src/Main Pages/Term_condition.html">Terms and Conditions</a> and <a href="src/Main Pages/Term_condition.html">Privacy Policy</a>
+                            <input id="input-checkbox" type="checkbox" />I agree to the <a className="anchor" href="src/Main Pages/Term_condition.html">Terms and Conditions</a> and <a href="src/Main Pages/Term_condition.html">Privacy Policy</a>
                         </label>
                         <button id="submit" type="submit" >Sign Up</button>
                     </div>

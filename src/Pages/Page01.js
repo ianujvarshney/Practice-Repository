@@ -6,15 +6,7 @@ import Help from '../images/Help (1).svg';
 import Help_1 from '../images/Help.svg';
 import { Link } from "react-router-dom";
 import '../Pagescss/Page01.css';
-// import '../Pagescss/Page06.css';
-// import Page02 from './Page02';
 
-// const Box = {
-//     padding: "0px !important",
-// }
-// const img = {
-//     width: "100vw"
-// }
 function Page01() {
     return (
         <>

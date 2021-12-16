@@ -53,7 +53,7 @@ function Page07() {
                                 <form id="form-items" className="text-center">
                                     <p >John cena</p>
                                     <p >Coach Code:</p>
-                                    <Link id="Link-button-1" to="/">Countinue</Link>
+                                    <Link id="Link-button-1" to="/">Continue</Link>
                                 </form>
                             </div>
                         </div>

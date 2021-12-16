@@ -19,7 +19,7 @@ function Page04() {
                     <div className="col-2 col-items-1">
                         <button> <Link to="/Page03">{"< Back"}</Link></button>
                     </div>
-                    <div className="col-5 col-items-2">
+                    <div className="col-5 col-items-2" id="h1weight">
                         <h1 className="text-center new-1">Log In to Your Account</h1>
                     </div>
                 </div>
@@ -32,7 +32,7 @@ function Page04() {
                             <input type="password" alt="" required />
                         </form>
                     </div>
-                    <div className="row">
+                    <div className="row" id="coldata">
                         <div className="col-12 text-center">
                             <button id="submit" type="submit" >Log In</button>
                         </div>
